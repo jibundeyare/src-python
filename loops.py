@@ -83,4 +83,19 @@ for i in range(len(items) - 1, -1, -1):
 # la variable "cart" contient le prix de produit qu'un client a mis dans son panier de commande
 cart = [123, 2, 42, 3.14, 56]
 
-# avec une boucle "foreach", calculez la somme du panier, ajoutez-y une tva de 20 %, et enfin, calculez la moyenne du panier
+# avec une boucle "foreach", calculez la somme du panier, ajoutez-y une tva de 20 %, et enfin, calculez le prix moyen des articles hors tva
+total = 0
+for item in cart:
+    total += item
+total_tva = total * 1.2
+moyenne_article = total / len(cart)
+
+print("total htva", total)
+print("total tva", total_tva)
+# affichage avec tous les chiffres après la virgule
+print("moyenne article htva", moyenne_article)
+# affichage avec seuls 2 chiffres après la virgule
+print("moyenne article htva", "%.2f" % (moyenne_article))
+# @todo affichage avec seuls 2 chiffres après la virgule en utilisant un f string
+# @todo calcul moyenne
+moyenne_article_tronquee = floor(total / len(items) * 100 ) / 100
