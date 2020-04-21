@@ -28,7 +28,7 @@ print(result)
 result = 11 ** (1 / 3)
 print(result)
 
-# 5 modulo de 3 => 2
+# 5 modulo 3 donne 2
 result = 5 % 3
 print(result)
 
@@ -37,14 +37,14 @@ x = random.randint(1, 100)
 print("x:", x)
 
 # test de parité (pair ou impair)
-print("x modulo de 2:", x % 2)
+print("x modulo 2:", x % 2)
 if x % 2:
     print(x, "est un nombre impair")
 else:
     print(x, "est un nombre pair")
 
 # test de divisibilité par 3
-print("x modulo de 3:", x % 2)
+print("x modulo 3:", x % 2)
 if x % 3:
     print(x, "n'est divisible par 3")
 else:
@@ -67,7 +67,7 @@ print(1 == 1)
 print(1 == 2)
 
 # test de différence
-# certains langages utilisent ce symbole "<>"
+# certains languages utilisent ce symbole "<>"
 print(1 != 1)
 print(1 != 2)
 

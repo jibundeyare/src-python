@@ -1,3 +1,6 @@
+# @todo ajouter des print pour mieux voir les sections
+# @todo check commentaires
+
 # déclaration et affectation d'une variable
 # initialisation d'une variable = la première affectattion de valeur
 foo = 123
