@@ -144,3 +144,15 @@ null2 = None
 # null -> str
 null2 = str(null2) # str(None) == "None"
 print(null2)
+
+# permutation de variables
+a = 123
+b = 42
+
+# permutation de variables dans la plupart des langages
+tmp = b
+b = a
+a = tmp
+
+# permutation de variables en python
+a, b = b, a
