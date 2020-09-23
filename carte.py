@@ -7,5 +7,12 @@ class Carte:
     def plus_grand_que(self, c):
         return self._rang > c._rang
 
+    def plus_petit_que(self, c):
+        return self._rang < c._rang
+
+    def egal_a(self, c):
+        return self._rang == c._rang
+
     def __str__(self):
         return f"{self._couleur} {self._symbol} {self._rang}"
+
