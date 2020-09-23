@@ -99,7 +99,7 @@ print("total tva", total_tva)
 print("moyenne article htva", moyenne_article)
 # affichage avec seuls 2 chiffres après la virgule
 print("moyenne article htva", "%.2f" % (moyenne_article))
-# @todo affichage avec seuls 2 chiffres après la virgule en utilisant un f string
+# affichage avec seuls 2 chiffres après la virgule en utilisant un f string
 print(f"moyenne article htva {moyenne_article:.2f}")
-# @todo calcul moyenne
+# calcul moyenne
 moyenne_article_tronquee = math.floor(total / len(items) * 100 ) / 100

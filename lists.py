@@ -103,7 +103,3 @@ print(derniere_valeur)
 # là par contre, la valeur supprimée n'est récupérée dans aucune variable (du coup elle est perdue)
 liste6.pop()
 print(liste6)
-
-# @todo ajouter
-# - concat de deux listes : + et extend()
-# - remove(), count(), index(), in
