@@ -1,3 +1,5 @@
+# cette classe est utilisée par `12-classes.py`
+
 class Carte:
     def __init__(self, couleur, symbol, rang):
         self._couleur = couleur
