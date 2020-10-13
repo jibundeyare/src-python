@@ -51,7 +51,7 @@ else:
     print(x, "est divisible par 3")
 
 # opérateurs composés
-# ce sont les mêmes que les op arithm de base mais suivi du signal = (égal)
+# ce sont les mêmes que les opérateurs arithmétiques de base mais suivi du signe égal "="
 i = 2
 # ajouter 5 à i et affecter le résultat à i
 i += 5
@@ -61,8 +61,8 @@ i = i + 5
 
 # opérateurs de comparaison
 
-# attention, quand on compare (c-à-d quand on pose une question) il y a deux symboles "==" égales
-# un seul symbole "=" égale c'est pour l'éffectation
+# attention, quand on compare (c-à-d quand on pose une question) il y a deux signes égal "=="
+# un seul signe égal "=" c'est pour l'affectation
 print(1 == 1)
 print(1 == 2)
 

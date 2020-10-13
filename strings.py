@@ -21,7 +21,7 @@ texte5 = str(nombre1) + ", " + str(nombre2) + ", " + texte1
 print(texte5)
 
 # formattage de chaîne de caractères avec des f-strings (nécessite python 3.6+)
-# f-string = interpolation
+# f-string : interpolation
 texte5 = f"{nombre1}, {nombre2}, {texte1}"
 print(texte5)
 
@@ -30,6 +30,6 @@ texte5 = "nombre1: " + str(nombre1) + ", " + "nombre2: " + str(nombre2) + ", " +
 print(texte5)
 
 # formatage plus complexe avec f-string (nécessite python 3.6+)
-# f-string = interpolation
+# f-string : interpolation
 texte5 = f"nombre1: {nombre1}, nombre2: {nombre2}, texte1: {texte1}"
 print(texte5)
