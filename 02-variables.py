@@ -89,11 +89,12 @@ null1 = None
 print(null1)
 
 # transtypage de variables : type casting
+
 nombre5 = 2
 print(type(nombre5))
 print(nombre5)
 
-# int -> float
+# int vers float
 nombre5 = float(nombre5)
 print(type(nombre5))
 print(nombre5)
@@ -102,7 +103,7 @@ nombre6 = 3.14
 print(type(nombre6))
 print(nombre6)
 
-# float -> int
+# float vers int
 nombre6 = int(nombre6)
 print(type(nombre6))
 print(nombre6)
@@ -111,7 +112,7 @@ nombre7 = 456
 print(type(nombre7))
 print(nombre7)
 
-# int -> str
+# int vers str
 nombre7 = str(nombre7)
 print(type(nombre7))
 print(nombre7)
@@ -120,12 +121,12 @@ nombre8 = 3.14
 print(type(nombre8))
 print(nombre8)
 
-# float -> str
+# float vers str
 nombre8 = str(nombre8)
 print(type(nombre8))
 print(nombre8)
 
-# bool -> int
+# bool vers int
 boolean3 = True
 boolean3 = int(boolean3)
 boolean4 = False
@@ -133,23 +134,29 @@ boolean4 = int(boolean4)
 print(boolean3)
 print(boolean4)
 
-# null -> int
+# null vers int
 null2 = None
-# attention : génère l'erreur "TypeError: int() argument must be a string, a bytes-like object or a number, not 'NoneType'"
+# provoque l'erreur : TypeError: int() argument must be a string, a bytes-like object or a number, not 'NoneType'
 # null2 = int(null2)
+# provoque l'erreur : TypeError: float() argument must be a string or a number, not 'NoneType'
+# null2 = float(null2)
 
-# null -> str
+# null vers str
 null2 = str(null2) # str(None) == "None"
 print(null2)
 
 # permutation de variables
 a = 123
 b = 42
+print(a, b)
 
 # permutation de variables dans la plupart des langages
 tmp = b
 b = a
 a = tmp
+print(a, b)
 
 # permutation de variables en python
 a, b = b, a
+print(a, b)
+
