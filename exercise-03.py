@@ -22,7 +22,7 @@
 # exo 3.3
 # La formule suivante permet de convertir des mètres en miles :
 # miles = meters / 1609.344
-# Je dois marcher 2371 m pour aller jusqu'à la plu sproche boulangerie.
+# Je dois marcher 2371 m pour aller jusqu'à la plus proche boulangerie.
 # Combien cela fait-il en miles ?
 # Affichez un résultat arrondi
 

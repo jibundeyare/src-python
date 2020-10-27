@@ -252,7 +252,7 @@ else:
 # en notation mathématique : n ∈ [25; 75]
 number = random.randint(0, 100)
 
-if 25 <= number and number <= 75:
+if number >= 25 and number <= 75:
     print("le nombre est compris entre 25 et 75 inclus")
 else:
     print("le nombre n'est pas compris entre 25 et 75 inclus")
