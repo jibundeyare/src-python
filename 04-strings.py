@@ -45,6 +45,9 @@ print(len(texte6))
 # la méthode find() permet de trouver l'index d'une chaîne de caractères présente dans une autre chaîne de caractères
 print(texte6.find('bar'))
 
+# la méthode replace() permerde remplacer une chaîne de caractères par une autre
+print(texte6.replace('bar', 'foo'))
+
 # les indexes permettent de ne renvoyer qu'une partie d'une chaîne de caractères
 # la syntaxe est la suivante : string[start:stop:step]
 # start : début
