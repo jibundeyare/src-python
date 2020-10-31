@@ -1,3 +1,6 @@
+# Documentation officielle sur les type `int` et `float`
+# [Built-in Types — Python 3.8.6 documentation](https://docs.python.org/3.8/library/stdtypes.html#numeric-types-int-float-complex)
+
 # déclaration et affectation d'une variable
 # initialisation d'une variable : la première affectattion de valeur
 foo = 123

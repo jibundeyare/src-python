@@ -1,3 +1,6 @@
+# Documentation officielle sur les chaînes de caractères
+# [Built-in Types — Python 3.8.6 documentation](https://docs.python.org/3.8/library/stdtypes.html#text-sequence-type-str)
+
 # déclaration et affectation de chaînes de caractères (strings)
 texte1 = "lorem"
 texte2 = "ipsum"

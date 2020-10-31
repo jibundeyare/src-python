@@ -1,3 +1,6 @@
+# Documentation officielle sur les listes
+# [Built-in Types — Python 3.8.6 documentation](https://docs.python.org/3.8/library/stdtypes.html#sequence-types-list-tuple-range)
+
 # déclaration et affectation d'une liste vide (empty list)
 # deux syntaxes différentes pour le même effet
 liste1 = []
