@@ -22,8 +22,10 @@
 # exo 10.3
 # Créer une fonction nommée `oui_non()` qui :
 # - prend un paramètre booléen
-# - renvoit `oui` si le boolest est égal à True
-# - renvoit `non` si le boolest est égal à False
+# - renvoit `oui` si le booléen est égal à True
+# - renvoit `non` si le booléen est égal à False
+# Appelez la fonction avec la valeur True et affichez le résultat
+# Appelez la fonction avec la valeur False et affichez le résultat
 
 # réponse 10.3
 

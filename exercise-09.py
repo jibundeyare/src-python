@@ -1,6 +1,4 @@
-# exercise-09-solution.py
-
-import random
+# exercise-09.py
 
 # exo 9.1
 # Créez un dictionnaire nommé `my_dict` associant :
