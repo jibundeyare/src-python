@@ -12,7 +12,7 @@
 # exo 10.2
 # Créer une fonction nommée `my_diff()` qui :
 # - prend deux paramètres de type `int`
-# - additionne ces deux paramètres
+# - soustrait `b` de `a`
 # - renvoit le résultat de type `int`
 # Notez bien le type hinting dans la déclaration de la fonction
 # Appelez la fonction et affichez le résultat
