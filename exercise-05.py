@@ -1,3 +1,5 @@
+# exercise-05.py
+
 import random
 
 # code 5.1

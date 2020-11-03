@@ -1,3 +1,5 @@
+# exercise-07.py
+
 import random
 
 # exo 7.1

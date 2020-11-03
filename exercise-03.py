@@ -1,3 +1,5 @@
+# exercise-03.py
+
 # exo 3.1
 # Calculez la moyenne des nombres suivants : 1, 1, 2, 3, 5, 8, 13.
 # Affectez le résultat à une variable et affichez le résultat.

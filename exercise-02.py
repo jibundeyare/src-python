@@ -1,3 +1,5 @@
+# exercise-02.py
+
 # exo 2.1
 # Affectez :
 # - le nombre 42 à une variable
