@@ -14,7 +14,7 @@ my_list = ['foo', 'bar', 'baz', 'lorem', 'ipsum']
 # réponse 6.2
 
 # exo 6.3
-# Ajoutez une chaîne de caractères à la liste `my_list` (sans modfier le code d'initialisation) et affichez le résultat
+# Ajoutez une chaîne de caractères à la fin de la liste `my_list` (sans modfier le code d'initialisation) et affichez le résultat
 my_list = ['foo', 'bar', 'baz', 'lorem', 'ipsum']
 
 # réponse 6.3
