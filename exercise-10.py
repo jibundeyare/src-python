@@ -33,6 +33,7 @@
 # Créer une fonction nommée `is_greater()` qui :
 # - prend deux paramètres `a` et `b` de type `float`
 # - renvoit True si `a` est plus grand que `b`
+# - renvoit False dans les autres cas
 # Appelez la fonction et affichez le résultat
 
 # réponse 10.4

@@ -107,7 +107,7 @@ my_list = [2.71, 42, 123, 2, 3.14, 1.61]
 # réponse 6.16
 
 # code 6.1
-# Lire la valeur de la ligne `m` et de la colonne `n` d'un tableau en 2 dimension
+# Lire la valeur de la ligne `m` et de la colonne `n` d'un tableau en 2 dimensions
 # print(matrix[m][n])
 #
 # Exemple avec la ligne 2 (index 1) et la colonne 3 (index 2)
@@ -133,8 +133,16 @@ print(matrix)
 
 # réponse 6.17
 
+# code 6.2
+# Pour afficher toutes les combinaisons possibles de deux nombres de 0 à n inclus vous pouvez utiliser deux boucles `for` imbriquées
+#
+# Exemple de toutes les combinaisons possibles de deux nombres de 0 à 2 inclus
+for i in range(0, 3):
+    for j in range(0, 3):
+        print(i, j)
+
 # exo 6.18
-# Avec le même tableau en 2 dimension, affichez toutes les valeurs plus petites ou égales à 50 ainsi que leur cordoonnées (ligne et colonne)
+# Avec le même tableau en 2 dimensions, affichez toutes les valeurs plus petites ou égales à 50 ainsi que leur cordoonnées (ligne et colonne)
 
 # réponse 6.18
 
