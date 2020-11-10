@@ -59,13 +59,13 @@
 #
 # Créez une fonction nommée :
 #
-# - metersToMiles() permettant de convertir des mètres en miles
-# - milesToMeters() permettant de convertir des miles en mètres
+# - meters_to_miles() permettant de convertir des mètres en miles
+# - miles_to_meters() permettant de convertir des miles en mètres
 #
 # Ensuite convertissez les valeurs :
 #
-# - 100 mètres en miles
-# - 100 miles en mètres
+# - 1 Km en miles
+# - 10 miles en mètres
 #
 # Appelez les fonctions et affichez les résultats
 
@@ -79,8 +79,10 @@
 # - ajoute une taxe de 5,5 % à `price` si `tax_type` est égal à `2`
 # - ajoute une taxe de 10 % à `price` si `tax_type` est égal à `3`
 # - ajoute une taxe de 20 % à `price` si `tax_type` est égal à `4`
-# Référence : [Quels sont les taux de TVA en vigueur en France et dans l'Union européenne ? | economie.gouv.fr](https://www.economie.gouv.fr/cedef/taux-tva-france-et-union-europeenne)
+# - renvoit le prix initial si `tax_type` n'est pas reconnu
 # Appelez la fonction et affichez le résultat avec un montant de 100 € pour chaque type de taxe
+#
+# Référence : [Quels sont les taux de TVA en vigueur en France et dans l'Union européenne ? | economie.gouv.fr](https://www.economie.gouv.fr/cedef/taux-tva-france-et-union-europeenne)
 
 # réponse 10.7
 
