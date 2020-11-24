@@ -14,7 +14,7 @@
 # Créez un dictionnaire nommé `my_dict` associant :
 # - une clé booléenne et un nombre entier
 # - une clé booléenne et un nombre à virgule flottante
-# - une clé nuémrique et une chaîne de caractères
+# - une clé numérique et une chaîne de caractères
 # - une clé alphanumérique et un booléen
 # Puis affichez le résultat avec un simple `print()`
 
@@ -68,7 +68,7 @@ my_dict = {
 # réponse 9.6
 
 # exo 9.7
-# En utilisant une boucle `for`, affichez les valeurs (et pas les clés) qui se trouvent dans le dictionnaire
+# En utilisant une boucle `for` et sans utiliser la méthode `values()`, affichez les valeurs (et pas les clés) qui se trouvent dans le dictionnaire
 my_dict = {
     'foo': 42,
     'bar': 3.14,
