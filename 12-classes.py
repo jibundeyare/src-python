@@ -1,3 +1,33 @@
+# une class nommée Foo avec des variables d'instance :
+# - bar
+# - baz
+# - lorem
+# et des méthodes getters et setters
+class Foo:
+    bar = 123
+    baz = 3.14
+    lorem = '...'
+
+    def get_bar(self):
+        return self.bar
+
+    def set_bar(self, bar):
+        self.bar = bar
+
+    def get_baz(self):
+        return self.baz
+
+    def set_baz(self, baz):
+        self.baz = baz
+
+    def get_lorem(self):
+        return self.lorem
+
+    def set_lorem(self, lorem):
+        self.lorem = lorem
+
+# import de classes depuis d'autres fichiers
+# normalement, les imports se font au tout début des scripts
 from lib.pioche import Pioche
 from carte import Carte
 
