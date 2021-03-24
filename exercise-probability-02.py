@@ -69,12 +69,13 @@ for i in range(0, 2):
 
 # exo 2.2
 # Maintenant, rédigez le code qui indique toutes les issues possibles d'un lancer de dé ainsi que le nombre total d'issues.
+# Rappel, les issues possibles pour un lancer de dé sont  : 1, 2, 3, 4, 5 et 6
 # Inspirez-vous de l'exemple 2.2.
 
 # réponse 2.2
 
 # exo 2.3
-# Rédigez le code qui indique toutes les issues possibles de deux lancers d'un seul dé.
+# Rédigez le code qui indique toutes les issues possibles de deux lancers successifs d'un seul dé.
 # Inspirez-vous des exemples 2.2 et 2.3.
 
 # réponse 2.3

@@ -25,8 +25,8 @@ print(round(1 / 3, 4))
 # Stockez le valeurs suivantes dans une variable et transtypez-les :
 # - integer 2 en un float
 # - float 1,62 en un integer
-# - float 1,62 en un float arrondi en un integer
-# - float 1,62 en un float arrondi en un float à un chiffre après la virgule
+# - float 1,62 en un float arrondi à zéro chiffre après la virgule, puis en un integer
+# - float 1,62 en un float arrondi à un chiffre après la virgule
 # À chaque fois stockez le résultat dans une variable et affichez le résultat.
 
 # réponse 2.2

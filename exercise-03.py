@@ -23,10 +23,44 @@
 
 # exo 3.3
 # La formule suivante permet de convertir des mètres en miles :
+#
 # miles = meters / 1609.344
+#
 # Je dois marcher 2371 m pour aller jusqu'à la plus proche boulangerie.
 # Combien cela fait-il en miles ?
 # Affichez un résultat arrondi
 
 # réponse 3.3
+
+# exo 3.4
+# La formule suivante permet de calculer le montant de la TVA à partir d'un prix « hors TVA » (HTVA) et du taux de la TVA en pourcentage
+#
+# tax_fee = price * tax_rate / 100
+#
+# La variable price contient le prix HTVA
+# La variable tax_rate contient le taux de la TVA en pourcentage (c-à-d le nombre 20 si la TVA est de 20 %)
+# Affichez le montant de la TVA à partir du prix HTVA et du taux de TVA
+
+price = 314
+tax_rate = 20
+
+# réponse 3.4
+
+# exo 3.5
+# La formule suivante permet de calculer un prix TVA inlcuse à partir du prix HTVA et du taux de TVA en pourcentage
+#
+# tax_included_price = price + price * tax_rate / 100
+#
+# ou encore
+#
+# tax_included_price = price * (1 + tax_rate / 100)
+#
+# La variable price contient le prix HTVA
+# La variable tax_rate contient le taux de la TVA en pourcentage (c-à-d le nombre 20 si la TVA est de 20 %)
+# Affichez le prix TVA incluse à partir du prix HTVA et du taux de TVA
+
+price = 271
+tax_rate = 20
+
+# réponse 3.5
 

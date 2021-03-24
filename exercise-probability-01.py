@@ -1,5 +1,7 @@
 # exercise-probability-01.py
 
+# [xkcd: Frequentists vs. Bayesians](https://xkcd.com/1132/)
+
 import random
 
 # code 1.1
@@ -26,6 +28,8 @@ for i in range(0, 2):
 # Qui gagne ? Alice ou Bob ?
 # Rédigez le code qui indique le nom du gagnant.
 
+head_or_tail = random.randint(0, 1)
+
 # réponse 1.1
 
 # exo 1.2
@@ -33,6 +37,8 @@ for i in range(0, 2):
 # Alice parie qu'elle va faire au moins 4. Bob parie qu'il va faire 3 au plus.
 # Qui gagne ? Alice ou Bob ?
 # Rédigez le code qui indique le nom du gagnant.
+
+dice = random.randint(1, 6)
 
 # réponse 1.2
 
@@ -42,6 +48,10 @@ for i in range(0, 2):
 # - 2 équivaut à papier
 # - 3 équivaut à ciseaux
 # Rédigez le code qui indique qui gagne.
+
+alice = random.randint(1, 3)
+bob = random.randint(1, 3)
+print(alice, bob)
 
 # réponse 1.3
 

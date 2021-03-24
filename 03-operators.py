@@ -31,7 +31,7 @@ result = 10 ** (1 / 2)
 print(result)
 
 # racine de 3
-result = 11 ** (1 / 3)
+result = 10 ** (1 / 3)
 print(result)
 
 # l'opérateur modulo renvoie le reste de la division
@@ -56,6 +56,24 @@ print(result)
 # 9 modulo 3 == 0
 result = 9 % 3
 print(result)
+
+# les opérateurs ont un ordre de priorité
+# 1. **
+# 2. * / % //
+# 3. + -
+
+# pour changer l'ordre de priorité on peut utiliser des parenthèses
+
+# on calcul d'abord la division et ensuite la puissance
+result = 10 ** (1 / 2)
+
+# on calcul d'abord l'addition et ensuite la multiplication
+result = (2 + 3) * 5
+print(result) # affiche 25
+
+# alors qu'ici on calcul d'abord la multiplication et ensuite l'addition
+result = 2 + 3 * 5
+print(result) # affiche 17
 
 # la fonction random.randint() renvoie un nombre entier aléatoir compris entre 1 et 100 inclus
 x = random.randint(1, 100)

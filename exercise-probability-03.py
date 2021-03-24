@@ -1,7 +1,5 @@
 # exercise-probability-03.py
 
-import random
-
 # Rappel :
 # - 0 est équivalent à pile
 # - 1 est équivalent à face
@@ -76,8 +74,12 @@ print(f"Il y a {percentage:.0f} % de chance d'avoir pile avec deux lancers")
 
 # exo 3.3
 # Alice parie qu'elle va obtenir au moins 2 fois pile, avec 3 lancers.
-# Avant d'écrire le code, détaillez toutes les issues possibles pour Alice.
-# Puis rédigez le code qui indique la probabilité que Alice gagne.
+# Avant d'écrire le code, détaillez toutes les issues gagnantes pour Alice.
 
 # réponse 3.3
+
+# exo 3.4
+# Rédigez le code qui indique la probabilité que Alice gagne.
+
+# réponse 3.4
 

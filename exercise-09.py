@@ -33,19 +33,12 @@ my_dict = {
 # réponse 9.3
 
 # exo 9.4
-# Supprimez du dictionnaire la clé `foo`
-# Puis affichez le résultat avec un simple `print()`
-my_dict = {
-    'foo': 42,
-    'bar': 3.14,
-    'baz': 'lorem ipsum',
-    'lorem': True
-}
+# Affichez la valeur associée à la clé 'lorem' dans le dictionnaire de 9.3
 
 # réponse 9.4
 
 # exo 9.5
-# Remplacez la valeur du dictionnaire associée à la clé `foo` par `123`
+# Supprimez du dictionnaire la clé `foo`
 # Puis affichez le résultat avec un simple `print()`
 my_dict = {
     'foo': 42,
@@ -57,7 +50,8 @@ my_dict = {
 # réponse 9.5
 
 # exo 9.6
-# En utilisant une boucle `for`, affichez les clés (et pas les valeurs) qui se trouvent dans le dictionnaire
+# Remplacez la valeur du dictionnaire associée à la clé `foo` par `123`
+# Puis affichez le résultat avec un simple `print()`
 my_dict = {
     'foo': 42,
     'bar': 3.14,
@@ -68,7 +62,7 @@ my_dict = {
 # réponse 9.6
 
 # exo 9.7
-# En utilisant une boucle `for` et sans utiliser la méthode `values()`, affichez les valeurs (et pas les clés) qui se trouvent dans le dictionnaire
+# En utilisant une boucle `for`, affichez les clés (et pas les valeurs) qui se trouvent dans le dictionnaire
 my_dict = {
     'foo': 42,
     'bar': 3.14,
@@ -79,6 +73,17 @@ my_dict = {
 # réponse 9.7
 
 # exo 9.8
+# En utilisant une boucle `for` et sans utiliser la méthode `values()`, affichez les valeurs (et pas les clés) qui se trouvent dans le dictionnaire
+my_dict = {
+    'foo': 42,
+    'bar': 3.14,
+    'baz': 'lorem ipsum',
+    'lorem': True
+}
+
+# réponse 9.8
+
+# exo 9.9
 # En utilisant une boucle `for` et sans utiliser la méthode `items()`, affichez les clés et les valeurs qui se trouvent dans le dictionnaire
 my_dict = {
     'foo': 42,
@@ -92,9 +97,9 @@ my_dict = {
 # key: baz, value: lorem ipsum
 # etc...
 
-# réponse 9.8
+# réponse 9.9
 
-# exo 9.9
+# exo 9.10
 # En utilisant une boucle `for` et la méthode `items()`, affichez les clés et les valeurs qui se trouvent dans le dictionnaire
 my_dict = {
     'foo': 42,
@@ -108,5 +113,5 @@ my_dict = {
 # key: baz, value: lorem ipsum
 # etc...
 
-# réponse 9.9
+# réponse 9.10
 

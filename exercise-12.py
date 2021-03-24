@@ -89,9 +89,9 @@
 # - get_price() : renvoit le prix du produit
 # - set_price() : détermine le prix du produit
 # - get_tax() : renvoit la taxe en pourcentage
-# - set_tax() :  détermine la taxe en pourcentage (pour une taxe de 20 %, le param!tre doit être 20.0)
-# - get_tax_part() : cette méthode renvoit le montant de la taxe (pour un produit de 100 @ et une taxe de 20 %, le résultat est 20.0)
-# - get_tax_included_price() : cette méthode renvoit le prix taxe incluse (pour un produit de 100 @ et une taxe de 20 %, le résultat est 120.0)
+# - set_tax() :  détermine la taxe en pourcentage (pour une taxe de 20 %, le paramètre doit être 20.0)
+# - get_tax_fee() : cette méthode calcule le montant de la taxe et le renvoit ; par exmeple pour un produit de 100 € et une taxe de 20 %, le résultat est 20.0
+# - get_tax_included_price() : cette méthode calcule le prix taxe incluse et le renvoit ; par exemple pour un produit de 100 € et une taxe de 20 %, le résultat est 120.0
 # réponse 12.7
 
 # exo 12.8
