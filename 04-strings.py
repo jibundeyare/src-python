@@ -69,7 +69,6 @@ print(texte6[4:])
 # renvoit 'foo bar'
 print(texte6[:7])
 
-foo bar baz
 # renvoyer les caractères de l'index -7 (compris), c-à-d 7 caractères en partant de la fin, jusqu'à la fin
 # renvoit 'bar baz'
 print(texte6[-7:])
@@ -77,3 +76,17 @@ print(texte6[-7:])
 # un « pas » négatif permet d'inverser l'ordre d'une chaîne de caractères
 print(texte6[::-1])
 
+# documentation d'une fonction
+
+def addition(a, b):
+    """Renvoie la somme des nombres a et b
+    
+    a float le nombre a
+    b float le nombre b
+    return float
+    """
+
+    return a + b
+
+# affichage de la documentation d'une fonction
+print(help(addition))
