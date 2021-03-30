@@ -9,7 +9,7 @@ def multiplication(a, b):
     return a * b
 
 # exo 4.2
-# Trouvez la position de la chaîne de caractères `ipsum`
+# Trouvez la position de la chaîne de caractères `minim`
 my_text = """Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
