@@ -51,7 +51,7 @@ print(texte6.find('bar'))
 # la méthode replace() permerde remplacer une chaîne de caractères par une autre
 print(texte6.replace('bar', 'foo'))
 
-# les indexes permettent de ne renvoyer qu'une partie d'une chaîne de caractères
+# les index permettent de ne renvoyer qu'une partie d'une chaîne de caractères
 # la syntaxe est la suivante : string[start:stop:step]
 # start : début
 # stop : fin

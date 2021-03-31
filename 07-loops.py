@@ -93,7 +93,7 @@ items = [123, 2, 42, 3.14, 56]
 for item in items:
     print(item)
 
-# boucle `foreach` avec les indexes associés aux items
+# boucle `foreach` avec les index associés aux items
 for i, item in enumerate(items, 1):
     print(i, item)
 
@@ -106,7 +106,7 @@ for i, item in enumerate(items):
 for item in reversed(items):
     print(item)
 
-# boucle `foreach` à rebours avec des indexes
+# boucle `foreach` à rebours avec des index
 for i in range(len(items) - 1, -1, -1):
     print(i, items[i])
 

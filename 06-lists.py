@@ -44,33 +44,33 @@ liste5 = [nombre1, texte1, "foo", True]
 
 print(liste5)
 
-# utilisation d'un indexe pour afficher une valeur particulière d'un tableu
+# utilisation d'un index pour afficher une valeur particulière d'un tableu
 # affichage de la première valeur
 print(liste5[0])
 # affichage de la dernière valeur
 print(liste5[3])
 
-# utilisation d'un indexe pour supprimer une valeur
+# utilisation d'un index pour supprimer une valeur
 del(liste5[0])
 print(liste5)
 
-# attention : après un del() tous les indexes du tableau sont recalculés !
+# attention : après un del() tous les index du tableau sont recalculés !
 print(liste5[0])
 
 # la fonction len() permet d'obtenir la longueur d'un tableau, c-à-d le nombre d'éléments d'un tableau
 taill_tableau5 = len(liste5)
 print(taill_tableau5)
 
-# formule qui permet d'obtenir l'indexe du dernier élément d'un tableau (s'il n'est pas vide) : "taille du tableau - 1"
-dernier_indexe = len(liste5) - 1
-print(dernier_indexe)
+# formule qui permet d'obtenir l'index du dernier élément d'un tableau (s'il n'est pas vide) : "taille du tableau - 1"
+dernier_index = len(liste5) - 1
+print(dernier_index)
 
 # insérer des éléments au milieu d'un tableau
 liste5.insert(1, "foo")
 print(len(liste5))
 print(liste5)
 
-# utilisation d'un indexe pour remplacer (réaffecter) une valeur dans un tableau
+# utilisation d'un index pour remplacer (réaffecter) une valeur dans un tableau
 # c'est comme si on écrasait la valeur avec une nouvelle valeur
 liste5[0] = 123
 
