@@ -209,7 +209,7 @@ else:
 
 # si vous combinez plusieurs fois le même opérateur logique (seulement des `and` ou seulement des `or`) vous n'avez pas besoin d'utiliser de parenthèses
 
-# exemple avec 2 variables
+# exemple avec 3 variables
 water = True
 gas = True
 electricity = False
@@ -244,7 +244,9 @@ print((water and gas) and (credit_card or cash))
 
 # affichage d'un message en fonction d'une quantité nuémrique
 product_quantity = random.randint(0, 5)
-print(product_quantity)if product_quantity == 0:
+print(product_quantity)
+
+if product_quantity == 0:
     print("rupture de stock")
 elif product_quantity == 1:
     print("il reste 1 produit")

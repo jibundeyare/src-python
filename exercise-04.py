@@ -2,10 +2,11 @@
 
 # exo 4.1
 # Ajoutez de la documentation à la fonction suivante
+# et vérifiez qu'elle s'affiche correctement en utilisant la fonction help()
 
 # réponse 4.1
-def soustraction(a, b):
-    return a - b
+def multiplication(a, b):
+    return a * b
 
 # exo 4.2
 # Trouvez la position de la chaîne de caractères `minim`

@@ -2,6 +2,9 @@
 
 import random
 
+# Remarque 6.1
+# Dans le texte, quand il est écrit Xème position, cela correspond à l'index X-1
+
 # exo 6.1
 # Créez une liste nommée `my_list` contenant un nombre entier, un nombre à virgule flottante, une chaîne de caractères et un booléen
 
@@ -43,7 +46,8 @@ my_list = ['foo', 'bar', 'baz', 'lorem', 'ipsum']
 
 # réponse 6.7
 
-# Remarque : les exercices suivants nécessitent l'utilisation d'une boucle `for`
+# Remarque 6.2
+# les exercices suivants nécessitent l'utilisation d'une boucle `for`
 
 # exo 6.8
 # Calculez la somme des nombres de la liste et affichez le résultat
