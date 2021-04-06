@@ -1,4 +1,4 @@
-# exercise-09.py
+# exercice-09-dictionnaires.py
 
 # exo 9.1
 # Créez un dictionnaire nommé `my_dict` associant :

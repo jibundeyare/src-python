@@ -1,4 +1,4 @@
-# exercise-probability-04.py
+# exercice-probabilités-04.py
 
 import random
 

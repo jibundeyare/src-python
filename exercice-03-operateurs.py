@@ -1,4 +1,4 @@
-# exercise-03.py
+# exercice-03-operateurs.py
 
 # exo 3.1
 # Calculez la moyenne des nombres suivants : 1, 1, 2, 3, 5, 8, 13.

@@ -1,4 +1,4 @@
-# exercise-probability-01.py
+# exercice-probabilités-01.py
 
 # [xkcd: Frequentists vs. Bayesians](https://xkcd.com/1132/)
 

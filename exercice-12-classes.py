@@ -1,4 +1,4 @@
-# exercise-12.py
+# exercice-12-classes.py
 
 # exo 12.1
 # Créez une classe nommée `User` qui possède les attributs suivants :

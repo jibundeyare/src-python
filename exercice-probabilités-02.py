@@ -1,4 +1,4 @@
-# exercise-probability-02.py
+# exercice-probabilités-02.py
 
 # Rappel :
 # - 0 est équivalent à pile

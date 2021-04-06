@@ -1,4 +1,4 @@
-# exercise-06.py
+# exercice-06-listes.py
 
 import random
 

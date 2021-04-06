@@ -1,4 +1,4 @@
-# exercise-02.py
+# exercice-02-variables.py
 
 # exo 2.1
 # Affectez :

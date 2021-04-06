@@ -1,4 +1,4 @@
-# exercise-10.py
+# exercice-10-fonctions.py
 
 # exo 10.1
 # Créer une fonction nommée `my_sum()` qui :

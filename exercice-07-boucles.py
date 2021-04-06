@@ -1,4 +1,4 @@
-# exercise-07.py
+# exercice-07-boucles.py
 
 import random
 
