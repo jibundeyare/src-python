@@ -1,11 +1,11 @@
 # exercice-05-strings.py
 
 # exo 5.1
-# Ajoutez de la documentation à la fonction suivante
-# et vérifiez qu'elle s'affiche correctement en utilisant la fonction help()
+# Ajoutez de la documentation à la fonction suivante et vérifiez
+# qu'elle s'affiche correctement en utilisant la fonction help()
 
 # réponse 5.1
-def multiplication(a, b):
+def multiplication(a: float, b: float) -> float:
     return a * b
 
 # exo 5.2
@@ -58,11 +58,11 @@ print('\n' in my_text2)
 print("foo bar baz".find('bar'))
 # Quand `str.find()` ne trouve pas de résultat, la méthode renvoit `-1`
 # Mais on peut aussi borner la recherche.
-# Exemple : ici on démarre la recherche à partir du caractère de la position 5
+# Exemple : ici on démarre la recherche à partir de l'index 5
 print("foo bar baz".find('bar', 5))
 
 # exo 5.5
-# Trouvez au moins une façon (et deux au plus) de compter le nombre de lignes de la chaîne de caractère suivante :
+# Trouvez au moins une façon de compter le nombre de lignes de la chaîne de caractère suivante :
 my_text = """Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.

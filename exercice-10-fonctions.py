@@ -49,11 +49,11 @@
 # réponse 10.5
 
 # exo 10.6
-# La formule suivante permet de converit des mètres en miles :
+# La formule suivante permet de convertir des mètres en miles :
 #
 #       miles = meters / 1609.344
 #
-# La formule suivante permet de faire le contraire :
+# La formule suivante permet de faire l'inverse :
 #
 #       meters = miles * 1609.344
 #
