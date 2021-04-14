@@ -83,7 +83,7 @@ resultat = ma_fonction3('foo', 'bar')
 # on peut les copier dans une autre variable
 py_max = max
 
-# la fonction "max()" existe dans les cope global
+# la fonction "max()" existe dans le scope global
 def max():
     pass
 
