@@ -1,3 +1,11 @@
+# Les fonctions servent principalement à organiser son code.
+# Elles permetent d'isoler un algorithme en lui collant une étiquette
+# (le nom de la fonction), en vue de le réutiliser plus tard.
+# Du coup, un développeur peut s'occuper de rédiger le code de
+# définition d'une fonctione pendant qu'un autre développeur peut
+# déjà « utiliser » cette fonctione même si elle n'est pas encore
+# terminée.
+
 # définition
 def hello():
     print("Hello World!")

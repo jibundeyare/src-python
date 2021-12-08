@@ -153,10 +153,16 @@ a = 123
 b = 42
 print(a, b)
 
-# permutation de variables dans la plupart des langages
+# permutation de variables avec une variable temporaire
 tmp = b
 b = a
 a = tmp
+print(a, b)
+
+# permutation de variables sans variable temporaire
+a = a + b
+b = a - b
+a = a - b
 print(a, b)
 
 # permutation de variables en python
