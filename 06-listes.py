@@ -54,7 +54,7 @@ print(liste5[3])
 del(liste5[0])
 print(liste5)
 
-# attention : après un del() tous les index du tableau sont recalculés !
+# ATTENTION : après un del() tous les index du tableau sont recalculés !
 print(liste5[0])
 
 # la fonction len() permet d'obtenir la longueur d'un tableau, c-à-d le nombre d'éléments d'un tableau
@@ -93,7 +93,7 @@ print(liste6)
 print(liste7)
 
 # la méthode sort() (à ne pas confondre avec "sorted()") permet de trier un tableau
-# attention : le tri s'effectue directement sur les données, l'ordre original est donc perdu !
+# ATTENTION : le tri s'effectue directement sur les données, l'ordre original est donc perdu !
 liste6.sort()
 print(liste6)
 

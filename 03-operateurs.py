@@ -150,7 +150,7 @@ c = c / 2
 
 # opérateurs de comparaison
 
-# attention, quand on compare (c-à-d quand on pose une question) il y a deux signes égal `==`
+# ATTENTION : quand on compare (c-à-d quand on pose une question) il y a deux signes égal `==`
 # un seul signe égal `=` c'est pour l'affectation
 print(1 == 1)
 print(1 == 2)

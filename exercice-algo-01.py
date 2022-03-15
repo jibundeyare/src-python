@@ -90,7 +90,7 @@
 # Indice : comment obtenir `0` quand `n == 2` ? Comment obtenir `1`
 # quand `n == 2` ?
 #
-# Attention : n'oubliez pas que maintenant vous devez appeler la
+# ATTENTION : n'oubliez pas que maintenant vous devez appeler la
 # fonction `fibonacci_1_5()` et plus `fibonacci_1_4()`.
 
 # réponse 1.5

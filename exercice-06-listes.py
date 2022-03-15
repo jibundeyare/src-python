@@ -125,7 +125,7 @@ print(matrix[1][2])
 
 # exo 6.17
 # Affichez la valeur qui se trouve à la colonne 4, ligne 3
-# Attention : il faut faire `- 1` pour obtenir les index correspondant
+# ATTENTION : il faut faire `- 1` pour obtenir les index correspondant
 size = 5
 matrix = []
 

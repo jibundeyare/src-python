@@ -63,7 +63,7 @@ print(texte10)
 print(type(texte10))
 
 # réaffectation et changement de type de données
-# attention : ceci n'est pas possible dans tous les langages
+# ATTENTION : ceci n'est pas possible dans tous les langages
 foo = 42
 print(foo)
 print(type(foo))
@@ -160,6 +160,7 @@ a = tmp
 print(a, b)
 
 # permutation de variables sans variable temporaire
+# ATTENTION : valable seulement pour les valeurs numériques
 a = a + b
 b = a - b
 a = a - b
@@ -168,4 +169,24 @@ print(a, b)
 # permutation de variables en python
 a, b = b, a
 print(a, b)
+
+# ATTENTION : les nombres à virgule flottante ne se comportent pas toujours comme on s'y attendrait
+0.1 + 0.1 + 0.1 == 0.3 # False
+
+# de même pour l'arrondi des nombres à virgule flottante
+round(0.5) # 0
+round(1.5) # 2
+
+# pour additionner correctement des nombres décimaux ou les arrondir, il faut utiliser la librairie "decimal"
+import decimal
+from decimal import Decimal
+
+Decimal('0.1') + Decimal('0.1') + Decimal('0.1') == Decimal('0.3') # True
+
+# demande d'utilisation du mode d'arrondi habituel, c-à-d ROUND_HALF_UP
+decimal.getcontext().rounding = decimal.ROUND_HALF_UP
+Decimal("0.5").quantize(Decimal("1")) # Decimal('1')
+Decimal("1.5").quantize(Decimal("1")) # Decimal('2')
+
+# voir [How to Round Numbers in Python – Real Python](https://realpython.com/python-rounding/#the-decimal-class) pour plus d'infos
 
