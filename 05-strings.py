@@ -5,6 +5,13 @@
 texte1 = "lorem"
 texte2 = "ipsum"
 
+# Si vous voulez construire une chaîne de caractères en utilisant d'autres variables, il y a deux techniques :
+# 1. la concaténation : coller bout à bout plusieurs valeurs (variables et chaînes de caractères en dur)
+# 2. l'interpolation : intégrer directement des variables dans une chaîne de caractères
+
+# En python la concaténation suppose que toutes les valeurs soient du type string.
+# Pour pouvoir concaténer des nombres entier, des nombres à virgule flottante et des booléens, il faut d'abord les transtyper (type cast) avec la fonction str().
+
 # concaténation de chaînes de caractères
 texte3 = texte1 + texte2
 
@@ -17,24 +24,21 @@ print(texte3)
 texte4 = texte1 * 3
 print(texte4)
 
-# transtypage (type casting) et concaténation
+# concaténation et transtypage (type casting)
 nombre1 = 123
 nombre2 = 3.14
-texte5 = str(nombre1) + ", " + str(nombre2) + ", " + texte1
+texte5 = "nombre1: " + str(nombre1) + ", nombre2: " + str(nombre2) + ", texte1: " + texte1
 print(texte5)
 
-# formattage de chaîne de caractères avec des f-strings (nécessite python 3.6+)
-# f-string : interpolation
-texte5 = f"{nombre1}, {nombre2}, {texte1}"
-print(texte5)
-
-# formatage plus complexe avec concaténation
-texte5 = "nombre1: " + str(nombre1) + ", " + "nombre2: " + str(nombre2) + ", " + "texte1: " + texte1
-print(texte5)
-
-# formatage plus complexe avec f-string (nécessite python 3.6+)
+# interpolation avec une f-string (nécessite python 3.6+)
 # f-string : interpolation
 texte5 = f"nombre1: {nombre1}, nombre2: {nombre2}, texte1: {texte1}"
+print(texte5)
+
+# paramétrage du nombre de chiffres à afficher après la virgule, dans une f-string
+# :.2f veut dire afficher comme un float avec deux chiffres après la virgule
+# notez la valeur est arrondie
+texte5 = f"nombre1: {nombre1:.2f}, nombre2: {nombre2:.2f}, texte1: {texte1}"
 print(texte5)
 
 
