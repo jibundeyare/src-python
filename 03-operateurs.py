@@ -1,6 +1,6 @@
 # Documentation officielle sur les opérateurs
-# - [Built-in Types — Python 3.8.6 documentation](https://docs.python.org/3.8/library/stdtypes.html#numeric-types-int-float-complex)
-# - [Built-in Types — Python 3.8.6 documentation](https://docs.python.org/3.8/library/stdtypes.html#comparisons)
+# - [Built-in Types — Python 3 documentation](https://docs.python.org/3/library/stdtypes.html#numeric-types-int-float-complex)
+# - [Built-in Types — Python 3 documentation](https://docs.python.org/3/library/stdtypes.html#comparisons)
 
 # chargement du module random pour générer des nombres aléatoires
 import random

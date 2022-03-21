@@ -1,5 +1,5 @@
 # Documentation officielle sur la fonction `range()`
-# [Built-in Types — Python 3.8.6 documentation](https://docs.python.org/3.8/library/stdtypes.html#ranges)
+# [Built-in Types — Python 3 documentation](https://docs.python.org/3/library/stdtypes.html#ranges)
 
 # chargement du module math (pour utiliser la fonction "math.floor()")
 import math

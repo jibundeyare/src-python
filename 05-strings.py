@@ -1,5 +1,8 @@
 # Documentation officielle sur les chaînes de caractères
-# [Built-in Types — Python 3.8.6 documentation](https://docs.python.org/3.8/library/stdtypes.html#text-sequence-type-str)
+# [Built-in Types — Python 3 documentation](https://docs.python.org/3/library/stdtypes.html#text-sequence-type-str)
+#
+# Documentation officile sur les f-strings
+# [string — Common string operations — Python 3 documentation](https://docs.python.org/3/library/string.html#format-string-syntax)
 
 # déclaration et affectation de chaînes de caractères (strings)
 texte1 = "lorem"
@@ -52,18 +55,35 @@ print(len(texte6))
 # la méthode find() permet de trouver l'index d'une chaîne de caractères présente dans une autre chaîne de caractères
 print(texte6.find('bar'))
 
+# la méthode count() permet de compter le nombre d'occurences d'une chaîne de caractères dans une autre
+print(texte6.count('ba'))
+
 # la méthode replace() permerde remplacer une chaîne de caractères par une autre
 print(texte6.replace('bar', 'foo'))
+
+# La méthode split() permet de scinder une chaîne de caractères en plusieurs éléments.
+# Cette fonction prend en paramètre une chaîne de caractères qui sert de séparateur.
+# Cette chaîne caractères permet d'indiquer à Python à quel endroit couper la chaîne de caractères.
+# Au final la fonction renvoie une liste qui contient des éléments, sauf le séparateur.
+
+# scinder la variable texte6 en utilisant l'espace comme séparateur
+liste_mots = texte6.split(' ')
+print(liste_mots)
 
 # les index permettent de ne renvoyer qu'une partie d'une chaîne de caractères
 # la syntaxe est la suivante : string[start:stop:step]
 # start : début
 # stop : fin
 # step : pas (comme le nombre de pas d'un marcheur)
+# Notez bien que pour indiquer les indexes, vous pouvez utiliser des valeurs en dur, des variables voir faire des calculs.
 
 # renvoyer les caractères de l'index 4 (compris) jusqu'à 7 (non compris)
 # renvoit 'bar'
 print(texte6[4:7])
+
+# renvoyer un caractère sur 2, de l'index 4 (compris) jusqu'à 7 (non compris)
+# renvoit 'bar'
+print(texte6[4:7:2])
 
 # renvoyer les caractères de l'index 4 (compris) jusqu'à 7 (non compris)
 # renvoit 'bar baz'
@@ -82,9 +102,9 @@ print(texte6[::-1])
 
 # documentation d'une fonction
 
-def addition(a, b):
+def addition(a: float, b: float) -> float:
     """Renvoie la somme des nombres a et b
-    
+
     a float le nombre a
     b float le nombre b
     return float
@@ -93,4 +113,6 @@ def addition(a, b):
     return a + b
 
 # affichage de la documentation d'une fonction
-print(help(addition))
+# Note : pour sortir de l'aide en ligne, tapez 'q'
+help(addition)
+

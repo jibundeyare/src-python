@@ -1,5 +1,5 @@
 # Documentation officielle sur les opérateurs booléens (opérateurs logiques)
-# [Built-in Types — Python 3.8.6 documentation](https://docs.python.org/3.8/library/stdtypes.html#boolean-operations-and-or-not)
+# [Built-in Types — Python 3 documentation](https://docs.python.org/3/library/stdtypes.html#boolean-operations-and-or-not)
 
 # chargement du module random (pour générer des nombres aléatoires)
 import random
