@@ -4,6 +4,8 @@
 # Documentation officile sur les f-strings
 # [string — Common string operations — Python 3 documentation](https://docs.python.org/3/library/string.html#format-string-syntax)
 
+from datetime import date
+
 # déclaration et affectation de chaînes de caractères (strings)
 texte1 = "lorem"
 texte2 = "ipsum"
@@ -44,6 +46,15 @@ print(texte5)
 texte5 = f"nombre1: {nombre1:.2f}, nombre2: {nombre2:.2f}, texte1: {texte1}"
 print(texte5)
 
+# affichage du résultat d'une opération arithémtique dans une f-string
+# affichage d'un âge à partir de l'année de naissance et l'année courante
+annee_naissance = 2000
+annee_courante = date.today().year
+print(f"age: {annee_courante - annee_naissance}")
+
+# affichage d'accolades {} dans une f-string
+# pour afficher des accolades, il suffit de les doubler
+print(f"accolade ouvrante {{ et accolade fermante }}")
 
 # manipulation de chaîne de caractères
 
@@ -59,7 +70,9 @@ print(texte6.find('bar'))
 print(texte6.count('ba'))
 
 # la méthode replace() permerde remplacer une chaîne de caractères par une autre
-print(texte6.replace('bar', 'foo'))
+# Remplacement de 'bar' par 'lorem'
+texte6 = texte6.replace('bar', 'lorem')
+print(texte6)
 
 # La méthode split() permet de scinder une chaîne de caractères en plusieurs éléments.
 # Cette fonction prend en paramètre une chaîne de caractères qui sert de séparateur.
@@ -69,6 +82,14 @@ print(texte6.replace('bar', 'foo'))
 # scinder la variable texte6 en utilisant l'espace comme séparateur
 liste_mots = texte6.split(' ')
 print(liste_mots)
+
+# On peut aussi utiliser la fonction split() et la fonction join() au lieu de la fonction replace()
+# Remplacement de 'baz' par 'ipsum'
+old = 'baz'
+new = 'ipsum'
+tmp = texte6.split(old)
+texte6 = new.join(tmp)
+print(texte6)
 
 # les index permettent de ne renvoyer qu'une partie d'une chaîne de caractères
 # la syntaxe est la suivante : string[start:stop:step]
