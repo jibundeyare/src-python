@@ -457,3 +457,13 @@ if (player1_score > 50 and player2_score > 50) or (player1_has_bonus or player2_
 else:
     print("game over")
 
+# Lazy evaluation (évaluation paresseuse)
+# Si vous utilisez l'opérayeur booléen "or", dès qu'une valeur True est rencontrée, python arrête d'évaluer les autres valeurs
+# Voic un tableau vide
+# L'index 0 n'existe pas
+foo = []
+# Si j'utilise une première valeur True, python n'essaie pas d'accéder à l'index 0
+print(True or foo[0])
+# Mais si j'utilise une première valeur False, python veut évaluer la valeur suivante et essaie d'accéder à l'index 0, d'où une erreur
+print(False or foo[0]) # IndexError: list index out of range
+
