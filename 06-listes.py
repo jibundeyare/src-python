@@ -106,3 +106,12 @@ print(derniere_valeur)
 # là par contre, la valeur supprimée n'est récupérée dans aucune variable (du coup elle est perdue)
 liste6.pop()
 print(liste6)
+
+# concaténation de listes
+liste8 = liste5 + liste6
+print(liste8)
+
+# fusion de listes
+liste5.extend(liste6)
+print(liste5)
+

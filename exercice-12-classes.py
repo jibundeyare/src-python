@@ -99,15 +99,15 @@
 # - product1
 #   - name: Dolor
 #   - price: 31,41
-#   - tax: 20.0
+#   - tax: 20,0
 # - product2
 #   - name: Sit
 #   - price: 27,18
-#   - tax: 10.0
+#   - tax: 10,0
 # - product3
 #   - name: Amet
 #   - price: 16,18
-#   - tax: 5.5
+#   - tax: 5,5
 
 # réponse 12.8
 
