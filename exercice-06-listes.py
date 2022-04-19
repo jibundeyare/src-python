@@ -105,10 +105,7 @@ my_list = [2.71, 42, 123, 2, 3.14, 1.61]
 # réponse 6.15
 
 # exo 6.16
-# Triez la liste en utilisant l'algorithme du tri bulle puis affichez la liste
-my_list = [2.71, 42, 123, 2, 3.14, 1.61]
-
-# réponse 6.16
+# Exo supprimé
 
 # code 6.1
 # Lire la valeur de la ligne `m` et de la colonne `n` d'un tableau en 2 dimensions
