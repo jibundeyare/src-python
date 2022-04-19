@@ -47,7 +47,7 @@ my_list = ['foo', 'bar', 'baz', 'lorem', 'ipsum']
 # réponse 6.7
 
 # Remarque 6.2
-# les exercices suivants nécessitent l'utilisation d'une boucle `for`
+# Les exercices suivants nécessitent l'utilisation d'une boucle `for`
 
 # exo 6.8
 # Calculez la somme des nombres de la liste et affichez le résultat

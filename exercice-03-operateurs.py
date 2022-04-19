@@ -54,7 +54,7 @@ friends = 3
 # réponse 3.5
 
 # exo 3.6
-# La formule suivante permet de convertir des miles en mètres :
+# La formule suivante permet de convertir des « miles » en mètres :
 #
 # meters = miles * 1609.344
 #

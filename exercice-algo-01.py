@@ -1,4 +1,4 @@
-# exercice-algo-01-solution
+# exercice-algo-01
 
 # note 1.1
 #

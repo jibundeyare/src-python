@@ -6,7 +6,7 @@
 # - le nombre d'or 1,61 à une variable
 # - votre nom et prénom à une variable
 # - la valeur booléenne vrai si nous sommes le matin, sinon la valeur booléenne faux, à une variable
-# - la valeur null `None` à une variable
+# - la valeur nulle `None` à une variable
 # Affichez ces variables
 
 # réponse 2.1
