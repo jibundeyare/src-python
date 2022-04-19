@@ -70,11 +70,10 @@ miles = 3
 # exo 3.7
 # La formule suivante permet de calculer le montant de la TVA à partir d'un prix « hors TVA » (HTVA) et du taux de la TVA en pourcentage
 #
-# tax_fee = price * tax_rate / 100
+# montant_tva = prix_htva * taux_tva / 100
 #
-# La variable price contient le prix HTVA
-# La variable tax_rate contient le taux de la TVA en pourcentage (c-à-d le nombre 20 si la TVA est de 20 %)
-# Affichez le montant de la TVA à partir du prix HTVA et du taux de TVA
+# Ci-dessous la variable price contient le prix HTVA et la variable tax_rate contient le taux de la TVA en pourcentage (c-à-d le nombre 20 si la TVA est de 20 %).
+# Calculez le montant de la TVA à partir du prix HTVA et du taux de TVA, stockez le résultat dans la variable tax_fee puis affichez-le.
 
 price = 314
 tax_rate = 20
@@ -82,13 +81,13 @@ tax_rate = 20
 # réponse 3.7
 
 # exo 3.8
-# La formule suivante permet de calculer un prix TVA inlcuse à partir du prix HTVA et du taux de TVA en pourcentage
+# La formule suivante permet de calculer un prix TTC à partir du prix HTVA et du taux de TVA en pourcentage
 #
-# tax_included_price = price + price * tax_rate / 100
+# prix_ttc = prix_htva + prix_htva * taux_tva / 100
 #
 # ou encore
 #
-# tax_included_price = price * (1 + tax_rate / 100)
+# prix_ttc = prix_htva * (1 + taux_tva / 100)
 #
 # La variable price contient le prix HTVA
 # La variable tax_rate contient le taux de la TVA en pourcentage (c-à-d le nombre 20 si la TVA est de 20 %)
@@ -102,11 +101,12 @@ tax_rate = 20
 # exo 3.9
 # Charly fait ses courses.
 # Il compare le prix de deux marques différentes de chocolat.
-# La première marque propose une tablette à 1,79 euros (pour 120 g).
-# La deuxième marque propose une tablette à 1,7 euros (pour 100 g).
-# Charly a l'intuition que la première marque est plus avantageuse.
+# La marque Alpha propose une tablette à 2,00 euros (pour 120 g).
+# La marque Beta propose une tablette à 1,70 euros (pour 100 g).
+# Charly a l'intuition que la marque Alpha est plus avantageuse.
 # A-t-il raison ?
-# Calculez le prix au kilo puis stockez les résultat dans les variables `price_kilo_1` et `price_kilo_2`.
+# Calculez d'abord le poid au kilo (convertir les grammes en kilo donc) et stockez les résultats dans les variables `weight_alpha` et `weight_beta`.
+# Puis calculez le prix au kilo avec les variables `price_alpha` et `weight_alpha`, et `price_beta` et `weight_beta` respectivement puis stockez les résultat dans les variables `price_per_kilo_alpha` et `price_per_kilo_beta`.
 # Utilisez un opérateur de comparaison (qui doit donc renvoyer une valeur booléenne) pour vérifier si Charly a raison.
 # Affichez le résultat booléen.
 
