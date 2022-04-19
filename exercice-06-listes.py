@@ -49,6 +49,12 @@ my_list = ['foo', 'bar', 'baz', 'lorem', 'ipsum']
 # Remarque 6.2
 # Les exercices suivants nécessitent l'utilisation d'une boucle `for`
 
+# Remarque 6.3
+# N'utilisez pas les fonctions suivantes sinon vous n'apprendrez rien :
+# - sum()
+# - list.index()
+# - list.sort()
+
 # exo 6.8
 # Calculez la somme des nombres de la liste et affichez le résultat
 my_list = [2.71, 42]
