@@ -22,12 +22,32 @@ print(round(0.9))
 print(round(1 / 3, 4))
 
 # exo 2.2
-# Stockez les valeurs suivantes dans une variable et transtypez-les :
-# - integer 2 en un float
-# - float 1,62 en un integer
-# - float 1,62 en un float arrondi à zéro chiffre après la virgule, puis en un integer
-# - float 1,62 en un float arrondi à un chiffre après la virgule
-# À chaque fois stockez le résultat dans une variable et affichez le résultat.
+# Stockez la valeur `2` dans une variable nommée `number1`.
+# Convertissez la valeur en float et stockez le résultat dans une variable nommée `number1_float`.
+# Affichez le résultat.
 
 # réponse 2.2
+
+# exo 2.3
+# Stockez la valeur `1,62` dans une variable nommée `number2`.
+# Convertissez la valeur en int et stockez le résultat dans une variable nommée `number2_int`.
+# Affichez le résultat.
+
+# réponse 2.3
+
+# exo 2.4
+# Stockez la valeur `1,62` dans une variable nommée `number3`.
+# Arrondissez la valeur en un float à zéro chiffre après la virgule et stockez le résultat dans une variable nommée `number3_rounded`.
+# Affichez le résultat.
+# Convertissez la variable `number3_rounded` en int et stockez le résultat dans une variable nommée `number3_int`.
+# Affichez le résultat.
+
+# réponse 2.4
+
+# exo 2.5
+# Stockez la valeur `1,62` dans une variable nommée `number4`.
+# Arrondissez la valeur en un float à un chiffre après la virgule et stockez le résultat dans une variable nommée `number4_rounded`.
+# Affichez le résultat.
+
+# réponse 2.5
 
