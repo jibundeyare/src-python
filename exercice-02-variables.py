@@ -22,7 +22,7 @@ print(round(0.9))
 print(round(1 / 3, 4))
 
 # exo 2.2
-# Stockez le valeurs suivantes dans une variable et transtypez-les :
+# Stockez les valeurs suivantes dans une variable et transtypez-les :
 # - integer 2 en un float
 # - float 1,62 en un integer
 # - float 1,62 en un float arrondi à zéro chiffre après la virgule, puis en un integer
