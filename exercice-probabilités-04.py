@@ -19,7 +19,7 @@ print(my_tuple[1])
 
 # code 4.4
 # Cela ne vous empêche pas de changer complètement le contenu de la variable.
-# Mais cela ne change rien au fait qu'on ne pas changer le tuple.
+# Mais cela ne change rien au fait qu'on ne peut pas changer le tuple.
 my_tuple = None
 
 # code 4.5
