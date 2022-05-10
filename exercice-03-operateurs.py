@@ -89,9 +89,8 @@ tax_rate = 20
 #
 # prix_ttc = prix_htva * (1 + taux_tva / 100)
 #
-# La variable price contient le prix HTVA
-# La variable tax_rate contient le taux de la TVA en pourcentage (c-à-d le nombre 20 si la TVA est de 20 %)
-# Affichez le prix TVA incluse à partir du prix HTVA et du taux de TVA
+# Ci-dessous la variable price contient le prix HTVA et la variable tax_rate contient le taux de la TVA en pourcentage (c-à-d le nombre 20 si la TVA est de 20 %).
+# Calculez le prix TTC à partir du prix HTVA et du taux de TVA, stockez le résultat dans la variable tax_included_price puis affichez-le.
 
 price = 271
 tax_rate = 20
@@ -109,6 +108,8 @@ tax_rate = 20
 # Puis calculez le prix au kilo avec les variables `price_alpha` et `weight_alpha`, et `price_beta` et `weight_beta` respectivement puis stockez les résultat dans les variables `price_per_kilo_alpha` et `price_per_kilo_beta`.
 # Utilisez un opérateur de comparaison (qui doit donc renvoyer une valeur booléenne) pour vérifier si Charly a raison.
 # Affichez le résultat booléen.
+price_alpha = 2.00
+price_beta = 1.70
 
 # réponse 3.9
 
