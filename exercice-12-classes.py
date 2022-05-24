@@ -44,7 +44,7 @@
 # réponse 12.3
 
 # exo 12.4
-# Créez une classe nommée `ProductLorem` qui possède les attributs suivants :
+# Créez une classe nommée `TaxFreeProduct` qui possède les attributs suivants :
 # - _name: valeur par défaut ''
 # - _price: valeur par défaut 0.0
 # et les méthodes suivantes :
@@ -57,7 +57,7 @@
 # réponse 12.4
 
 # exo 12.5
-# Créez 3 instances de la classe `ProductLorem` et affectez les valeurs suivantes à ses attributs en utilisant les setters :
+# Créez 3 instances de la classe `TaxFreeProduct` et affectez les valeurs suivantes à ses attributs en utilisant les setters :
 # - product1
 #   - name: Foo
 #   - price: 31,41
@@ -71,14 +71,14 @@
 # réponse 12.5
 
 # exo 12.6
-# Ajoutez chacune des instances de la classe `ProductLorem` à une liste nommée `products`
+# Ajoutez chacune des instances de la classe `TaxFreeProduct` à une liste nommée `products`
 # Utilisez une boucle `for` (type `foreach`) pour afficher le nom et le prix de chaque produit
 # Calculez la somme du prix des produits et affichez-en un arrondi à 2 chiffres après la virgule, après la boucle `for`
 
 # réponse 12.6
 
 # exo 12.7
-# Créez une classe nommée `ProductIpsum` qui possède les attributs suivants :
+# Créez une classe nommée `TaxedProduct` qui possède les attributs suivants :
 # - _name: valeur str transmise par le constructeur
 # - _price: valeur float par défaut 0.0
 # - _tax: valeur float par défaut 0.0
@@ -95,7 +95,7 @@
 # réponse 12.7
 
 # exo 12.8
-# Créez 3 instances de la classe `ProductIpsum` et affectez les valeurs suivantes à ses attributs en utilisant le constructeur :
+# Créez 3 instances de la classe `TaxedProduct` et affectez les valeurs suivantes à ses attributs en utilisant le constructeur :
 # - product1
 #   - name: Dolor
 #   - price: 31,41
@@ -112,7 +112,7 @@
 # réponse 12.8
 
 # exo 12.9
-# Ajoutez chacune des instances de la classe `ProductIpsum` à une liste nommée `products`
+# Ajoutez chacune des instances de la classe `TaxedProduct` à une liste nommée `products`
 # Utilisez une boucle `for` (type `foreach`) pour afficher le nom, le prix (sans la taxe), la taxe et le prix taxe incluse de chaque produit
 # Calculez :
 # - la somme du prix des produits sans les taxes
