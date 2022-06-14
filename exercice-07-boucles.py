@@ -49,35 +49,35 @@ number = random.randint(1, 10)
 # exo 7.8
 # en utilisant une boucle for, on tire 50 fois un nombre entier `r` au hasard entre 1 et 10 inclus
 # utilisez une variable compteur `count` pour compter le nombre de fois où `r` est égal à 7
-# affichez la variable `count`
+# affichez la variable `count` après la boucle
 
 # réponse 7.8
 
 # exo 7.9
 # en utilisant une boucle for, on tire 10 fois un nombre entier `r` au hasard entre 1 et 10 inclus
 # utilisez une variable compteur `count` pour compter le nombre de fois où `r` est plus petit ou égal à 4
-# affichez la variable `count`
+# affichez la variable `count` après la boucle
 
 # réponse 7.9
 
 # exo 7.10
 # en utilisant une boucle for, on tire 33 fois un nombre entier `r` au hasard entre 1 et 10 inclus
 # utilisez une variable compteur `count` pour compter le nombre de fois où `r` est plus grand ou égal à 7
-# affichez la variable `count`
+# affichez la variable `count` après la boucle
 
 # réponse 7.10
 
 # exo 7.11
 # en utilisant une boucle for, on tire 66 fois un nombre entier `r` au hasard entre 1 et 10 inclus
 # utilisez une variable compteur `count` pour compter le nombre de fois où `r` est plus petit ou égal à 2, ou plus grand ou égal à 9
-# affichez la variable `count`
+# affichez la variable `count` après la boucle
 
 # réponse 7.11
 
 # exo 7.12
 # en utilisant une boucle for, on tire 100 fois un nombre entier `r` au hasard entre 1 et 10 inclus
 # utilisez une variable compteur `count` pour compter le nombre de fois où `r` est compris entre 2 et 9 inclus
-# affichez la variable `count`
+# affichez la variable `count` après la boucle
 
 # réponse 7.12
 
