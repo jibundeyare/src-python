@@ -23,7 +23,7 @@ fruits = dict(
 print(type(fruits))
 print(fruits)
 
-# parcourir un dictionnaire directement avec "for" renvoit les clés
+# parcourir un dictionnaire directement avec "for" renvoie les clés
 for key in fruits:
     print(key)
 

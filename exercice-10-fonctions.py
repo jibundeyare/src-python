@@ -4,7 +4,7 @@
 # Créer une fonction nommée `my_sum()` qui :
 # - prend deux paramètres
 # - additionne ces deux paramètres
-# - renvoit le résultat
+# - renvoie le résultat
 # Appelez la fonction et affichez le résultat
 
 # réponse 10.1
@@ -13,7 +13,7 @@
 # Créer une fonction nommée `my_diff()` qui :
 # - prend deux paramètres de type `int`
 # - soustrait `b` de `a`
-# - renvoit le résultat de type `int`
+# - renvoie le résultat de type `int`
 # Notez bien le type hinting dans la déclaration de la fonction
 # Appelez la fonction et affichez le résultat
 
@@ -22,8 +22,9 @@
 # exo 10.3
 # Créer une fonction nommée `oui_non()` qui :
 # - prend un paramètre booléen
-# - renvoit `oui` si le booléen est égal à True
-# - renvoit `non` si le booléen est égal à False
+# - renvoie une valeur booléenne
+# - renvoie `oui` si le paramètre est égal à True
+# - renvoie `non` si le paramètre est égal à False
 # Appelez la fonction avec la valeur True et affichez le résultat
 # Appelez la fonction avec la valeur False et affichez le résultat
 
@@ -32,8 +33,8 @@
 # exo 10.4
 # Créer une fonction nommée `is_greater()` qui :
 # - prend deux paramètres `a` et `b` de type `float`
-# - renvoit True si `a` est plus grand que `b`
-# - renvoit False dans les autres cas
+# - renvoie True si `a` est plus grand que `b`
+# - renvoie False dans les autres cas
 # Appelez la fonction et affichez le résultat
 
 # réponse 10.4
@@ -41,9 +42,9 @@
 # exo 10.5
 # Créer une fonction nommée `compare()` qui :
 # - prend deux paramètres `a` et `b` de type `float`
-# - renvoit 1 si `a` est plus grand que `b`
-# - renvoit -1 si `a` est plus petit que `b`
-# - renvoit 0 si `a` et `b` sont égaux
+# - renvoie 1 si `a` est plus grand que `b`
+# - renvoie -1 si `a` est plus petit que `b`
+# - renvoie 0 si `a` et `b` sont égaux
 # Appelez la fonction et affichez le résultat
 
 # réponse 10.5
@@ -79,7 +80,7 @@
 # - ajoute une taxe de 5,5 % à `price` si `tax_type` est égal à `2`
 # - ajoute une taxe de 10 % à `price` si `tax_type` est égal à `3`
 # - ajoute une taxe de 20 % à `price` si `tax_type` est égal à `4`
-# - renvoit le prix initial si `tax_type` n'est pas reconnu
+# - renvoie le prix initial si `tax_type` n'est pas reconnu
 # Appelez la fonction et affichez le résultat avec un montant de 100 € pour chaque type de taxe
 #
 # Référence : [Quels sont les taux de TVA en vigueur en France et dans l'Union européenne ? | economie.gouv.fr](https://www.economie.gouv.fr/cedef/taux-tva-france-et-union-europeenne)

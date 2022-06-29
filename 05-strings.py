@@ -99,23 +99,23 @@ print(texte6)
 # Notez bien que pour indiquer les indexes, vous pouvez utiliser des valeurs en dur, des variables voir faire des calculs.
 
 # renvoyer les caractères de l'index 4 (compris) jusqu'à 7 (non compris)
-# renvoit 'bar'
+# renvoie 'bar'
 print(texte6[4:7])
 
 # renvoyer un caractère sur 2, de l'index 4 (compris) jusqu'à 7 (non compris)
-# renvoit 'bar'
+# renvoie 'bar'
 print(texte6[4:7:2])
 
 # renvoyer les caractères de l'index 4 (compris) jusqu'à 7 (non compris)
-# renvoit 'bar baz'
+# renvoie 'bar baz'
 print(texte6[4:])
 
 # renvoyer les caractères du début jusqu'à l'index 7 (non compris)
-# renvoit 'foo bar'
+# renvoie 'foo bar'
 print(texte6[:7])
 
 # renvoyer les caractères de l'index -7 (compris), c-à-d 7 caractères en partant de la fin, jusqu'à la fin
-# renvoit 'bar baz'
+# renvoie 'bar baz'
 print(texte6[-7:])
 
 # un « pas » négatif permet d'inverser l'ordre d'une chaîne de caractères

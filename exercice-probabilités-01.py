@@ -5,7 +5,7 @@
 import random
 
 # code 1.1
-# L'appel à la fonction random.randint(0, 1) renvoit un nombre entier aléatoire compris entre 0 et 1 inclus.
+# L'appel à la fonction random.randint(0, 1) renvoie un nombre entier aléatoire compris entre 0 et 1 inclus.
 number = random.randint(0, 1)
 
 # code 1.2

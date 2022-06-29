@@ -55,9 +55,9 @@
 # exo 1.3
 #
 # Écrivez une fonction nommé `fibonacci_1_3()` qui :
-# - renvoit `0` si on lui passe `0` en paramètre
-# - renvoit `1` si on lui passe `1` en paramètre
-# - renvoit `None` dans les autres cas
+# - renvoie `0` si on lui passe `0` en paramètre
+# - renvoie `1` si on lui passe `1` en paramètre
+# - renvoie `None` dans les autres cas
 #
 # Appelez votre fonction dans une boucle qui va de `0` à `2` en
 # utilisant un index et la fonction `range()`.
@@ -68,9 +68,9 @@
 #
 # Reprenez votre fonction `fibonacci_1_3`, renommez-là `fibonacci_1_4`.
 # Puis modifiez-là de façon à ce que la fonction :
-# - renvoit la somme de `fibonacci_1_4(0)` et
+# - renvoie la somme de `fibonacci_1_4(0)` et
 # `fibonacci_1_4(1)` si on lui passe `2` en paramètre.
-# - renvoit `None` dans les autres cas
+# - renvoie `None` dans les autres cas
 #
 # Appelez votre fonction dans une boucle qui va de `0` à `2` en
 # utilisant un index et la fonction `range()`.

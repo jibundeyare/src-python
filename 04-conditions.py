@@ -173,10 +173,10 @@ else:
 # Opérateurs de comparaison
 
 # les opérations avec opérateurs de comparaison renvoient une valeur booléenne
-# cette comparaison renvoit False (rappel : age = 50)
+# cette comparaison renvoie False (rappel : age = 50)
 print(age < 0)
 
-# cette comparaison renvoit True (rappel : age = 50)
+# cette comparaison renvoie True (rappel : age = 50)
 print(age >= 19)
 
 # L'opérateur booléen `and`
@@ -411,7 +411,7 @@ else:
 # deux joueurs accumulent un score
 # pour pouvoir passer au niveau supérieur, au moins un des deux joueurs doit avoir un score supérieur à 50, sinon la partie est finie game over
 
-# la fonction `random.randint()` renvoit un nombre entier aléatoire
+# la fonction `random.randint()` renvoie un nombre entier aléatoire
 # ici le nombre aléatoire est compris entre 0 et 100 (inclus)
 player1_score = random.randint(0, 100)
 player2_score = random.randint(0, 100)

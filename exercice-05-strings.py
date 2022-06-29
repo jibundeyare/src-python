@@ -56,7 +56,7 @@ print('\n' in my_text2)
 # code 5.3
 # La méthode `str.find()` permet de retrouver la position d'une chaîne caractères dans une autre chaîne de caractères
 print("foo bar baz".find('bar'))
-# Quand `str.find()` ne trouve pas de résultat, la méthode renvoit `-1`
+# Quand `str.find()` ne trouve pas de résultat, la méthode renvoie `-1`
 # Mais on peut aussi borner la recherche.
 # Exemple : ici on démarre la recherche à partir de l'index 5
 print("foo bar baz".find('bar', 5))
