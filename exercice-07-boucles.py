@@ -23,13 +23,13 @@ number = random.randint(1, 10)
 # réponse 7.3
 
 # exo 7.4
-# en utilisant une boucle for, on tire 50 fois un nombre entier `r` au hasard entre 1 et 10 inclus
+# en utilisant une boucle for, on tire 100 fois un nombre entier `r` au hasard entre 1 et 10 inclus
 # affichez `r` s'il est plus petit ou égal à 5
 
 # réponse 7.4
 
 # exo 7.5
-# en utilisant une boucle for, on tire 20 fois un nombre entier `r` au hasard entre 1 et 10 inclus
+# en utilisant une boucle for, on tire 100 fois un nombre entier `r` au hasard entre 1 et 10 inclus
 # affichez `r` s'il est plus grand ou égal à 6
 
 # réponse 7.5
@@ -41,34 +41,34 @@ number = random.randint(1, 10)
 # réponse 7.6
 
 # exo 7.7
-# en utilisant une boucle for, on tire 10 fois un nombre entier `r` au hasard entre 1 et 10 inclus
+# en utilisant une boucle for, on tire 100 fois un nombre entier `r` au hasard entre 1 et 10 inclus
 # affichez `r` s'il est compris entre 3 et 8 inclus
 
 # réponse 7.7
 
 # exo 7.8
-# en utilisant une boucle for, on tire 50 fois un nombre entier `r` au hasard entre 1 et 10 inclus
+# en utilisant une boucle for, on tire 100 fois un nombre entier `r` au hasard entre 1 et 10 inclus
 # utilisez une variable compteur `count` pour compter le nombre de fois où `r` est égal à 7
 # affichez la variable `count` après la boucle
 
 # réponse 7.8
 
 # exo 7.9
-# en utilisant une boucle for, on tire 10 fois un nombre entier `r` au hasard entre 1 et 10 inclus
+# en utilisant une boucle for, on tire 100 fois un nombre entier `r` au hasard entre 1 et 10 inclus
 # utilisez une variable compteur `count` pour compter le nombre de fois où `r` est plus petit ou égal à 4
 # affichez la variable `count` après la boucle
 
 # réponse 7.9
 
 # exo 7.10
-# en utilisant une boucle for, on tire 33 fois un nombre entier `r` au hasard entre 1 et 10 inclus
+# en utilisant une boucle for, on tire 100 fois un nombre entier `r` au hasard entre 1 et 10 inclus
 # utilisez une variable compteur `count` pour compter le nombre de fois où `r` est plus grand ou égal à 7
 # affichez la variable `count` après la boucle
 
 # réponse 7.10
 
 # exo 7.11
-# en utilisant une boucle for, on tire 66 fois un nombre entier `r` au hasard entre 1 et 10 inclus
+# en utilisant une boucle for, on tire 100 fois un nombre entier `r` au hasard entre 1 et 10 inclus
 # utilisez une variable compteur `count` pour compter le nombre de fois où `r` est plus petit ou égal à 2, ou plus grand ou égal à 9
 # affichez la variable `count` après la boucle
 
