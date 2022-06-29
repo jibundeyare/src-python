@@ -1,30 +1,79 @@
-# une class nommée Foo avec des variables d'instance :
-# - bar
-# - baz
-# - lorem
-# et des méthodes getters et setters
+# une class nommée Foo
+# avec des variables d'instance :
+#   - bar
+#   - baz
+# des variables de classe :
+#   - lorem
+#   - ipsum
+# des méthodes getters et setters d'instance
+# et des méthodes getters et setters de classe
 class Foo:
-    bar = 123
-    baz = 3.14
-    lorem = '...'
+    # variables de classe
+    lorem = 'aaa'
+    ipsum = 'bbb'
 
+    # constructeur
+    def __init__(self, bar, baz):
+        # variables d'instance
+        self.bar = bar
+        self.baz = baz
+
+    # méthode getter d'instance
     def get_bar(self):
         return self.bar
 
+    # méthode setter d'instance
     def set_bar(self, bar):
         self.bar = bar
 
+    # méthode getter d'instance
     def get_baz(self):
         return self.baz
 
+    # méthode setter d'instance
     def set_baz(self, baz):
         self.baz = baz
 
-    def get_lorem(self):
-        return self.lorem
+    # méthode getter de classe
+    @classmethod
+    def get_lorem(cls):
+        return cls.lorem
 
-    def set_lorem(self, lorem):
-        self.lorem = lorem
+    # méthode setter de classe
+    @classmethod
+    def set_lorem(cls, lorem):
+        cls.lorem = lorem
+
+    # méthode getter de classe
+    @classmethod
+    def get_ipsum(cls):
+        return cls.ipsum
+
+    # méthode setter de classe
+    @classmethod
+    def set_ipsum(cls, ipsum):
+        cls.ipsum = ipsum
+
+f = Foo()
+g = Foo()
+
+# lecture de variables d'instance
+print(f.get_bar())
+print(g.get_bar())
+
+# modification d'une variable d'instance
+f.set_bar(234)
+print(f.get_bar())
+print(g.get_bar())
+
+# lecture d'une variable de classe
+print(f.get_lorem())
+print(g.get_lorem())
+
+# modification d'une variable de classe
+f.set_lorem('ccc')
+print(f.get_lorem())
+print(g.get_lorem())
 
 # import de classes depuis d'autres fichiers
 # normalement, les imports se font au tout début des scripts

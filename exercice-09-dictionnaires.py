@@ -63,6 +63,11 @@ my_dict = {
 
 # exo 9.7
 # En utilisant une boucle `for`, affichez les clés (et pas les valeurs) qui se trouvent dans le dictionnaire
+# Exemple de résultat attendu :
+# key: foo
+# key: bar
+# key: baz
+# etc...
 my_dict = {
     'foo': 42,
     'bar': 3.14,
@@ -73,7 +78,12 @@ my_dict = {
 # réponse 9.7
 
 # exo 9.8
-# En utilisant une boucle `for` et sans utiliser la méthode `values()`, affichez les valeurs (et pas les clés) qui se trouvent dans le dictionnaire
+# En utilisant une boucle `for` et sans utiliser les méthodes `values()` ou `items()`, affichez les valeurs (et pas les clés) qui se trouvent dans le dictionnaire
+# Exemple de résultat attendu :
+# value: 42
+# value: 3.14
+# value: lorem ipsum
+# etc...
 my_dict = {
     'foo': 42,
     'bar': 3.14,
@@ -84,34 +94,34 @@ my_dict = {
 # réponse 9.8
 
 # exo 9.9
-# En utilisant une boucle `for` et sans utiliser la méthode `items()`, affichez les clés et les valeurs qui se trouvent dans le dictionnaire
+# En utilisant une boucle `for` et sans utiliser les méthodes `values()` ou `items()`, affichez les clés et les valeurs qui se trouvent dans le dictionnaire
+# Exemple de résultat attendu :
+# key: foo, value: 42
+# key: bar, value: 3.14
+# key: baz, value: lorem ipsum
+# etc...
 my_dict = {
     'foo': 42,
     'bar': 3.14,
     'baz': 'lorem ipsum',
     'lorem': True
 }
-# Exemple de résultat attendu :
-# key: foo, value: 42
-# key: bar, value: 3.14
-# key: baz, value: lorem ipsum
-# etc...
 
 # réponse 9.9
 
 # exo 9.10
 # En utilisant une boucle `for` et la méthode `items()`, affichez les clés et les valeurs qui se trouvent dans le dictionnaire
+# Exemple de résultat attendu :
+# key: foo, value: 42
+# key: bar, value: 3.14
+# key: baz, value: lorem ipsum
+# etc...
 my_dict = {
     'foo': 42,
     'bar': 3.14,
     'baz': 'lorem ipsum',
     'lorem': True
 }
-# Exemple de résultat attendu :
-# key: foo, value: 42
-# key: bar, value: 3.14
-# key: baz, value: lorem ipsum
-# etc...
 
 # réponse 9.10
 
