@@ -51,10 +51,10 @@ print(liste5[0])
 print(liste5[3])
 
 # utilisation d'un index pour supprimer une valeur
-del(liste5[0])
+del liste5[0]
 print(liste5)
 
-# ATTENTION : après un del() tous les index du tableau sont recalculés !
+# ATTENTION : après un `del` tous les index du tableau sont recalculés !
 print(liste5[0])
 
 # la fonction len() permet d'obtenir la longueur d'un tableau, c-à-d le nombre d'éléments d'un tableau

@@ -1,6 +1,6 @@
-# exercice-algo-01
+# exercice-algo-03
 
-# note 2.1
+# note 3.1
 #
 # Fizz buzz
 #
@@ -16,13 +16,13 @@
 #
 # 1, 2, Fizz, 4, Buzz, Fizz, 7, 8, Fizz, Buzz, 11, Fizz, 13, 14, Fizz Buzz, 16, 17, Fizz, 19, Buzz, ...
 
-# exo 2.1
+# exo 3.1
 #
-# Écrivez une fonction nommée `fizzbuzz_2_1()` qui compte à partir de 1
+# Écrivez une fonction nommée `fizzbuzz_3_1()` qui compte à partir de 1
 # jusqu'au paramètre `n` inclus, passé en paramètre de la fonction, et
 # qui respecte les règles du jeu "Fizz buzz".
 #
-# Appelez la fonction `fizzbuzz_2_1()` avec la valeur `20`.
+# Appelez la fonction `fizzbuzz_3_1()` avec la valeur `20`.
 
-# réponse 2.1
+# réponse 3.1
 

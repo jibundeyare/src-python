@@ -1,6 +1,6 @@
-# exercice-algo-03
+# exercice-algo-01
 
-# Remarque 3.1
+# Remarque 1.1
 # Il existe pleins d'algorithmes de tri de données plus ou moins efficace.
 # Un des algorithme le moins efficace est le tri bulle.
 # Mais il a le mérite d'être « facile » à implémenter car il est très intuitif.
@@ -14,9 +14,9 @@
 #
 # « Facile », non ?
 
-# exo 3.1
+# exo 1.1
 # Triez la liste suivante en ordre croissant en utilisant l'algorithme du tri bulle puis affichez la liste.
 my_list = [2.71, 42, 123, 2, 3.14, 1.61]
 
-# réponse 3.1
+# réponse 1.1
 

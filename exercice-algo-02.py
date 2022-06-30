@@ -1,6 +1,6 @@
-# exercice-algo-01
+# exercice-algo-02
 
-# note 1.1
+# note 2.1
 #
 # Connaissez-vous la suite de Fibonacci ?
 # Cette suite est calculée en additionnant les nombres des deux rangs
@@ -35,24 +35,24 @@
 # Ce qui donne la formule :
 # Fn = Fn-2 + Fn-1
 
-# exo 1.1
+# exo 2.1
 #
 # Ajoutez les 10 premiers nombres de la suite de Fibonacci, que vous
 # aurez calculé « à la main », dans une liste. Puis affichez cette
 # liste en utilisant une boucle de type « for each ».
 # Note : la suite doit démarre à 0.
 
-# réponse 1.1
+# réponse 2.1
 
-# exo 1.2
+# exo 2.2
 #
 # Reprenez votre boucle de type « for each » et modifiez-là de façon à
 # utiliser un index et la fonction `range()` pour parcourir le liste
 # des nombres de Fibonacci.
 
-# réponse 1.2
+# réponse 2.2
 
-# exo 1.3
+# exo 2.3
 #
 # Écrivez une fonction nommé `fibonacci_1_3()` qui :
 # - renvoie `0` si on lui passe `0` en paramètre
@@ -62,9 +62,9 @@
 # Appelez votre fonction dans une boucle qui va de `0` à `2` en
 # utilisant un index et la fonction `range()`.
 
-# réponse 1.3
+# réponse 2.3
 
-# exo 1.4
+# exo 2.4
 #
 # Reprenez votre fonction `fibonacci_1_3`, renommez-là `fibonacci_1_4`.
 # Puis modifiez-là de façon à ce que la fonction :
@@ -75,9 +75,9 @@
 # Appelez votre fonction dans une boucle qui va de `0` à `2` en
 # utilisant un index et la fonction `range()`.
 
-# réponse 1.4
+# réponse 2.4
 
-# exo 1.5
+# exo 2.5
 #
 # Reprenez votre fonction `fibonacci_1_4`, renommez-là `fibonacci_1_5`.
 # Puis modifiez-là de façon à ce que la somme de `fibonacci_1_4(0)` et
@@ -93,9 +93,9 @@
 # ATTENTION : n'oubliez pas que maintenant vous devez appeler la
 # fonction `fibonacci_1_5()` et plus `fibonacci_1_4()`.
 
-# réponse 1.5
+# réponse 2.5
 
-# exo 1.6
+# exo 2.6
 #
 # Reprenez votre fonction `fibonacci_1_5`, renommez-là `fibonacci_1_6`.
 # Vous êtes mûr pour finir le travail et rendre la fonction
@@ -104,9 +104,9 @@
 # Appelez votre fonction dans une boucle qui va de `0` à `10` en
 # utilisant un index et la fonction `range()`.
 
-# réponse 1.6
+# réponse 2.6
 
-# exo 1.7
+# exo 2.7
 #
 # Ça vous semble bon ? On va vérifier en créant un test.
 #
@@ -117,5 +117,5 @@
 # y a une différence, affichez un message d'erreur suivi du rang et des
 # deux valeurs.
 
-# réponse 1.7
+# réponse 2.7
 
