@@ -99,6 +99,13 @@ my_list = [2.71, 42, 123, 2, 3.14, 1.61]
 # réponse 6.14
 
 # exo 6.15
+# Trouvez la chaîne de caractères la plus longue dans une liste.
+# Affichez son index, sa valeur et sa longueur.
+my_list = ['Lorem', 'ipsum', 'dolor', 'sit', 'amet', 'consectetur', 'adipiscing', 'elit']
+
+# réponse 6.15
+
+# exo 6.16
 # Ici le but est d'intervertir les éléments de la liste deux à deux
 # Liste initiale :
 #
@@ -109,10 +116,7 @@ my_list = [2.71, 42, 123, 2, 3.14, 1.61]
 #   my_list = [42, 2.71, 2, 123, 1.61, 3.14]
 my_list = [2.71, 42, 123, 2, 3.14, 1.61]
 
-# réponse 6.15
-
-# exo 6.16
-# Exo supprimé
+# réponse 6.16
 
 # code 6.1
 # Lire la valeur de la ligne `m` et de la colonne `n` d'un tableau en 2 dimensions
