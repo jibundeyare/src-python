@@ -1,4 +1,4 @@
 #!/bin/bash
 
-git commit -m "Amélioration de la doc" && git push
+git commit -m "Améliorations" && git push
 
