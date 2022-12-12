@@ -459,7 +459,7 @@ else:
 
 # Lazy evaluation (évaluation paresseuse)
 # Si vous utilisez l'opérayeur booléen "or", dès qu'une valeur True est rencontrée, python arrête d'évaluer les autres valeurs
-# Voic un tableau vide
+# Voici un tableau vide
 # L'index 0 n'existe pas
 foo = []
 # Si j'utilise une première valeur True, python n'essaie pas d'accéder à l'index 0

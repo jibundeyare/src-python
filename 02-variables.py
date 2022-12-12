@@ -153,6 +153,10 @@ a = 123
 b = 42
 print(a, b)
 
+# permutation de variables spécifique à python
+a, b = b, a
+print(a, b)
+
 # permutation de variables avec une variable temporaire
 tmp = b
 b = a
@@ -164,10 +168,6 @@ print(a, b)
 a = a + b
 b = a - b
 a = a - b
-print(a, b)
-
-# permutation de variables en python
-a, b = b, a
 print(a, b)
 
 # ATTENTION : les nombres à virgule flottante ne se comportent pas toujours comme on s'y attendrait
