@@ -15,3 +15,4 @@
 # - get_tax_included_price() : cette méthode calcule le prix taxe incluse et le renvoie ; par exemple pour un produit de 100 € et une taxe de 20 %, le résultat est 120.0
 
 # réponse 12.7
+

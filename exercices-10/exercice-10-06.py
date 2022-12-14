@@ -20,3 +20,4 @@
 # Appelez les fonctions et affichez les résultats
 
 # réponse 10.6
+

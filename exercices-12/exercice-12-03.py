@@ -3,3 +3,4 @@
 # Utilisez une boucle `for` (type `foreach`) pour afficher le nom complet et l'email de chaque utilisateur s'il est abonné à la newsletter (c-à-d si newsletter == True)
 
 # réponse 12.3
+

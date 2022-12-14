@@ -8,3 +8,4 @@
 # Et affichez-en des arrondis à 2 chiffres après la virgule, après la boucle `for`
 
 # réponse 12.9
+
