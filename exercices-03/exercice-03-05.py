@@ -10,6 +10,8 @@
 # Calculez le montant total des dépenses en utilisant les variables `day1`, `day2`, etc et stockez le résultat dans la variable `total`.
 # Calculez la moyenne des dépenses quotidiennes en utilisant les variables `total` et `days` et stockez le résultat dans la variable `average`.
 # Affichez le nombre de jours, le montant total et la moyenne des dépenses.
+#
+# ATTENTION : ne pas utiliser la fonction sum()
 
 # réponse 3.5
 

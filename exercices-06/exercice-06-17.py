@@ -1,6 +1,8 @@
 # exo 6.17
 # Affichez la valeur qui se trouve à la colonne 4, ligne 3
-# ATTENTION : il faut faire `- 1` pour obtenir les index correspondant
+#
+# ATTENTION : faire `- 1` pour obtenir les index correspondant
+# ATTENTION : cet exercice nécessite l'utilisation d'une boucle `for`
 
 import random
 

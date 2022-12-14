@@ -1,6 +1,6 @@
 # exo 5.4
 # Scindez la variable `my_text` en utilisant l'espace comme séparateur et affectez le résultat à une autre variable.
-# Affichez le mot qui se trouve à l'index 5 du tableau ; le résultat devrait être `consectetur`
+# Affichez le mot qui se trouve à l'index 5 de la liste ; le résultat devrait être `consectetur`
 
 my_text = """Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
