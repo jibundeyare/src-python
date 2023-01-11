@@ -5,8 +5,8 @@
 
 import random
 
-# affectaction du nombre 0 ou 1 à la variable number
-number = random.randint(0, 1)
+# affectaction d'un nombre aléatoire entre 0 et 5 inclus à la variable number
+number = random.randint(0, 5)
 print(number)
 
 # réponse 4.1
