@@ -1,4 +1,5 @@
 # exo 12.2
+# Reprenez la classe que vous avez créé pour l'exercice 12.1.
 # Créez 4 instances de la classe `User` et affectez les valeurs suivantes à ses attributs :
 # - user1
 #   - firstname: Joe

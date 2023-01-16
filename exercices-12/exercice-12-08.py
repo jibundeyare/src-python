@@ -1,4 +1,5 @@
 # exo 12.8
+# Reprenez la classe que vous avez créé pour l'exercice 12.7.
 # Créez 3 instances de la classe `TaxIncludedProduct` et affectez les valeurs suivantes à ses attributs en utilisant le constructeur :
 # - product1
 #   - name: Dolor

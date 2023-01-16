@@ -1,4 +1,5 @@
 # exo 12.5
+# Reprenez la classe que vous avez créé pour l'exercice 12.4.
 # Créez 3 instances de la classe `TaxFreeProduct` et affectez les valeurs suivantes à ses attributs en utilisant les setters :
 # - product1
 #   - name: Foo

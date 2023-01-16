@@ -1,4 +1,6 @@
 # exo 12.9
+# Reprenez la classe que vous avez créé pour l'exercice 12.7 et les
+# instances que vous avez créé dans l'exercice 12.8.
 # Ajoutez chacune des instances de la classe `TaxIncludedProduct` à une liste nommée `products`
 # Utilisez une boucle `for` (type `foreach`) pour afficher le nom, le prix (sans la taxe), la taxe et le prix taxe incluse de chaque produit
 # Calculez :
