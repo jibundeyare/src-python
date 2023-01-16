@@ -6,6 +6,8 @@
 # Qui gagne ? Alice ou Bob ?
 # Rédigez le code qui indique le nom du gagnant.
 
+import random
+
 head_or_tail = random.randint(0, 1)
 
 # réponse 1.1

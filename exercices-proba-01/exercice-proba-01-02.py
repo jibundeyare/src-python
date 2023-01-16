@@ -4,6 +4,8 @@
 # Qui gagne ? Alice ou Bob ?
 # Rédigez le code qui indique le nom du gagnant.
 
+import random
+
 dice = random.randint(1, 6)
 
 # réponse 1.2
